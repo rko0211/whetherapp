@@ -1,0 +1,85 @@
+.App {
+  /* text-align: center; */
+  /* background-color: rgb(24, 24, 155); */
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.outercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.inp {
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.submitbtn {
+  height: 45px;
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Card {
+  /* width: max-content; */
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 10px 30px 10px #888888;
+}
+
+.CardTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.CardTable {
+  text-align: center;
+}
+
+.CardTable,
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 15px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
